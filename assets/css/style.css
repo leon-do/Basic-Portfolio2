@@ -1,0 +1,135 @@
+* {
+	margin:0;
+}
+html,body{
+	height:100%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.wrapper{
+	min-height:100%;
+	margin-bottom: -55px;
+	background-color: gainsboro;
+}
+.whiteTopBar{
+	background-color: white;
+	height:70px;
+}
+.wrapper_width960{
+	width:960px;
+	margin-left: auto;
+	margin-right:auto;
+}
+.wrapper_width960_header{
+	height:70px;
+	background-color: white
+}
+.wrapper_width960_header_name{
+	float:left;
+	background-color:#4aaaa5;
+	color:white;
+	width:170px;
+	height:60px;
+	line-height: 60px;
+	text-align: center;
+	margin-top:10px;
+}
+.wrapper_width960_header_AboutPortfolioContact{
+	float:right;
+	margin-top:35px;
+}
+#about,
+#portfolio,
+#contact{
+		margin-right: 10px;
+		font-size: 16px;
+}
+#about:hover
+{
+		font-size: 18px;
+		cursor:pointer;
+}
+#portfolio:hover
+{
+		font-size: 18px;
+		cursor:pointer;
+}
+#contact:hover
+{
+		font-size: 18px;
+		cursor:pointer;
+}
+.wrapper_width960_body{
+	background-color: white;
+	border: 1px solid grey;
+	width:640px;
+	float:left;
+	padding:10px;
+	margin-top: 30px;
+}
+.wrapper_width960_body_aboutMe{
+	margin:10px;
+	color: #4aaaa5;
+	font-size:20px;
+}
+.wrapper_width960_body_image{
+	float:left;
+	margin:10px;
+}
+#profilePic{
+	width:250px;
+}
+.wrapper_width960_body_description{
+	margin:10px;
+}
+.wrapper_width960_connectWithMe{
+	background-color: white;
+	border: 1px solid grey;
+	width:250px;
+	float:right;
+	text-align:center;
+	padding:10px;
+	margin-top: 30px;
+}
+.wrapper_width960_connectWithMe_title{
+	margin:10px;
+	color: #4aaaa5;
+}
+.wrapper_width960_connectWithMe_icons{
+	margin:10px;
+	text-align: center;
+}
+.wrapper_width960_connectWithMe_icons > a{
+	text-decoration: none;
+}
+#githubPic{
+	width:50px;
+}
+#linkedinPic{
+	width:50px;
+}
+#githubPic:hover{
+	width:53px;
+}
+#linkedinPic:hover{
+	width:53px;
+}
+.wrapper_width960_push{
+	height: 45px;
+}
+.footer{
+	height: 45px;
+	background-color: #666666;
+	text-align:center;
+	line-height: 45px;
+	color:white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border-top: 10px solid #4aaaa5;
+}
+
+
+
+
+
+
+
+
